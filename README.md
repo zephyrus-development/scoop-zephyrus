@@ -1,35 +1,35 @@
-# Scoop Bucket for Nexus CLI
+# Scoop Bucket for the Zephyrus CLI
 
-A [Scoop](https://scoop.sh) bucket for installing [Nexus CLI](https://github.com/NexusCLI/NexusCLI).
+A [Scoop](https://scoop.sh) bucket for installing [Zephyrus CLI](https://github.com/zephyrus-development/zephyrus-cli).
 
 ## Usage
 
 ### Add the bucket
 
 ```powershell
-scoop bucket add nexus https://github.com/NexusCLI/scoop-nexus
+scoop bucket add zephyrus https://github.com/NexusCLI/scoop-zephyrus
 ```
 Install Nexus CLI
 ```powershell
-scoop install nexus/nexus-cli
+scoop install zephyrus/zep
 ```
 Update
 ```powershell
 scoop update
-scoop update nexus-cli
+scoop update zep
 ```
 Uninstall
 ```powershell
-scoop uninstall nexus-cli
+scoop uninstall zep
 ```
 
-About Nexus CLI
-Nexus CLI is a secure, encrypted file vault backed by GitHub with:
+About Zephyrus CLI
+Zephyrus CLI is a secure, encrypted file vault backed by GitHub with:
 - 🔐 End-to-end AES-256-GCM encryption
 - 🔑 Per-file encryption keys for secure sharing
 - ☁️ GitHub-backed storage
 - 🛡️ Zero-knowledge architecture
-For more information, visit: https://github.com/NexusCLI/NexusCLI
+For more information, visit: https://github.com/zephyrus-developement/zephyrus-cli
 
 License
 Nexus CLI is licensed under the MIT License.
